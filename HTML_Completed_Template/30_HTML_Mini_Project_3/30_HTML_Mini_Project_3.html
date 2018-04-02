@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML mini project 3</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+
+     <style type="text/css">
+     	header , footer{
+     			background-color: darkcyan;
+     			color: orange;
+     			text-align: center;
+     			padding: 10px;
+     	}
+     	body{
+     		margin: 0;
+     	}
+     	/* main navigation */
+     	nav ul{
+     		list-style: none;
+     		padding: 0;
+     		margin: 0;
+     	}
+     	nav{
+     		background-color: lightcyan;
+     		overflow: hidden;
+     	}
+     	nav ul li{
+     		float: left;
+     	}
+     	nav ul li a{
+     		text-decoration: none;
+     		color: orange;
+     		padding: 14px 25px ;
+     		display: inline-block;
+     	}
+     	nav ul li a:hover{
+     		background-color: cyan;
+     	}
+     	nav ul li a.active{
+     		background-color: cyan;
+     	}
+
+    /*sidebar section*/
+    	aside{
+    		float: left;
+    		min-width: 200px;
+    	}
+    	aside ul{
+    		list-style: none;
+    		padding: 0;
+    		margin: 0;
+    	}
+    	aside ul li a{
+    		text-decoration: none;
+    		color: orange;
+    		padding: 14px 25px;
+    		display: block;
+    	}
+    	aside ul li a:hover{
+    		background-color: cyan;
+    	}
+
+    	/*main section */
+    	section{
+    		margin-left: 200px;
+    		border-left:2px solid gray; 
+    		padding:10px;
+    	}
+    	details{
+    		background-color: cyan;
+    		padding: 14px;
+    		margin: 5px;
+
+    	}
+    	article{
+    		background-color: lightcyan;
+    		color: black;
+    		padding: 10px;
+    		border-radius: 7px;
+    	}
+    	article h2{
+
+    	}
+
+     </style>
+</head>
+<body>
+	<!--main header-->
+	<header>
+		<h1>Ui Brains Technologies</h1>
+		<p>The smart way of learning</p>
+	</header>
+	<!--main navigatiion-->
+	<nav>
+		<ul>
+			<li>
+				<a href="#" class="active">
+			<i class="fa fa-home"></i>	Home
+			</a>
+			</li>
+			<li>
+				<a href="#">
+			<i class="fa fa-id-card"></i>	About
+			</a>
+			</li>
+			<li>
+				<a href="#">
+			<i class="fa fa-mobile"></i>	Careers
+			</a>
+			</li>
+			<li>
+				<a href="#">
+			<i class="fa fa-mobile"></i>	Contact us
+			</a>
+			</li>
+			<li>
+				<a href="#">
+			<i class="fa fa-book"></i>	Courses
+			</a>
+			</li>
+
+		</ul>
+	</nav>
+
+	<!--sedebar section-->
+	<aside>
+		<ul>
+			<li>
+				<a href="#">HTML</a>
+			</li>
+			<li>
+				<a href="#">CSS</a>
+			</li>
+			<li>
+				<a href="#">Java Script</a>
+			</li>
+			<li>
+				<a href="#">BootStrap</a>
+			</li>
+			<li>
+				<a href="#">JQuery</a>
+			</li>
+			<li>
+				<a href="#">Angular JS</a>
+			</li>
+		</ul>
+	</aside>
+	
+	<!--main section-->
+	<section>
+		<!--HTML-->
+		<details>
+			<summary>HTML</summary>
+			<article>
+				<h2>HTML</h2>
+				<p>Non nostrud anim in anim pariatur quis proident proident tempor exercitation cupidatat dolor aliqua. Proident deserunt eu irure amet proident dolor ut enim. Reprehenderit sit nisi laborum est mollit elit ut in anim nisi deserunt laborum. Ullamco sed laboris in do qui voluptate exercitation aliqua pariatur in elit nisi nulla laborum ad in. Minim occaecat nisi dolore dolore mollit nisi irure sint amet ad ullamco occaecat. Et irure pariatur amet duis eu in qui amet in in culpa cupidatat dolore ad.</p>
+			</article>
+		</details>
+
+			<details>
+			<summary>CSS</summary>
+			<article>
+				<h2>CSS</h2>
+				<p>Non nostrud anim in anim pariatur quis proident proident tempor exercitation cupidatat dolor aliqua. Proident deserunt eu irure amet proident dolor ut enim. Reprehenderit sit nisi laborum est mollit elit ut in anim nisi deserunt laborum. Ullamco sed laboris in do qui voluptate exercitation aliqua pariatur in elit nisi nulla laborum ad in. Minim occaecat nisi dolore dolore mollit nisi irure sint amet ad ullamco occaecat. Et irure pariatur amet duis eu in qui amet in in culpa cupidatat dolore ad.</p>
+			</article>
+		</details>
+
+			<details>
+			<summary>Java Script</summary>
+			<article>
+				<h2>Java Script</h2>
+				<p>Non nostrud anim in anim pariatur quis proident proident tempor exercitation cupidatat dolor aliqua. Proident deserunt eu irure amet proident dolor ut enim. Reprehenderit sit nisi laborum est mollit elit ut in anim nisi deserunt laborum. Ullamco sed laboris in do qui voluptate exercitation aliqua pariatur in elit nisi nulla laborum ad in. Minim occaecat nisi dolore dolore mollit nisi irure sint amet ad ullamco occaecat. Et irure pariatur amet duis eu in qui amet in in culpa cupidatat dolore ad.</p>
+			</article>
+		</details>
+
+			<details>
+			<summary>BootStrap</summary>
+			<article>
+				<h2>BootStrap</h2>
+				<p>Non nostrud anim in anim pariatur quis proident proident tempor exercitation cupidatat dolor aliqua. Proident deserunt eu irure amet proident dolor ut enim. Reprehenderit sit nisi laborum est mollit elit ut in anim nisi deserunt laborum. Ullamco sed laboris in do qui voluptate exercitation aliqua pariatur in elit nisi nulla laborum ad in. Minim occaecat nisi dolore dolore mollit nisi irure sint amet ad ullamco occaecat. Et irure pariatur amet duis eu in qui amet in in culpa cupidatat dolore ad.</p>
+			</article>
+		</details>
+
+			<details>
+			<summary>JQuery</summary>
+			<article>
+				<h2>JQuery</h2>
+				<p>Non nostrud anim in anim pariatur quis proident proident tempor exercitation cupidatat dolor aliqua. Proident deserunt eu irure amet proident dolor ut enim. Reprehenderit sit nisi laborum est mollit elit ut in anim nisi deserunt laborum. Ullamco sed laboris in do qui voluptate exercitation aliqua pariatur in elit nisi nulla laborum ad in. Minim occaecat nisi dolore dolore mollit nisi irure sint amet ad ullamco occaecat. Et irure pariatur amet duis eu in qui amet in in culpa cupidatat dolore ad.</p>
+			</article>
+		</details>
+
+			<details>
+			<summary>Angular JS</summary>
+			<article>
+				<h2>Angular JS</h2>
+				<p>Non nostrud anim in anim pariatur quis proident proident tempor exercitation cupidatat dolor aliqua. Proident deserunt eu irure amet proident dolor ut enim. Reprehenderit sit nisi laborum est mollit elit ut in anim nisi deserunt laborum. Ullamco sed laboris in do qui voluptate exercitation aliqua pariatur in elit nisi nulla laborum ad in. Minim occaecat nisi dolore dolore mollit nisi irure sint amet ad ullamco occaecat. Et irure pariatur amet duis eu in qui amet in in culpa cupidatat dolore ad.</p>
+			</article>
+		</details>
+		</section>
+
+	<!--main footer-->
+	<footer>
+		<h2>Copyright &copy; 2018</h2>
+		<p>All rights are reserved</p>
+		<small>Developed and maintained by Laxmikant</small>
+	</footer>
+</body>
+</html>

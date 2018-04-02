@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tables</title>
+    <style>
+        table ,th ,td{
+
+            border: 3px solid red;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+        }
+        #custom-table th{
+                background-color: blue;
+                color:white;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Table Example -->
+    <h2>simple table</h2>
+    <table width="500px">
+        <thead>
+            <tr>
+            <th>sno</th>
+            <th>name</th>
+            <th>address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>MS Dhoni</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Kohli</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Rohit</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Maculum</td>
+                <td>Newzeland</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table with Border all sides -->
+
+    <!-- Table with Border Collapse -->
+
+    <!-- Table With Padding -->
+
+    <!-- Table With Text Align -->
+
+    <!-- Table with Col Span -->
+    <h2>Table with col span</h2>
+    <table width="500px">
+        <thead>
+            <tr>
+            <th>sno</th>
+            <th colspan="2">name & address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>MS Dhoni</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Kohli</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Rohit</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Maculum</td>
+                <td>Newzeland</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Table With Row Span -->
+    <h2>Table with row span</h2>
+    <table width="500px">
+        <thead>
+            <tr>
+            <th>sno</th>
+            <th>name</th>
+            <th>address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>MS Dhoni</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                
+                <td>Kohli</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Rohit</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Maculum</td>
+                <td>Newzeland</td>
+            </tr>
+        </tbody>
+    </table>    
+
+    <!-- Custom Table with CSS -->
+    <h2>custom table with css</h2>
+    <table width="500px" id="custom-table">
+        <thead>
+            <tr>
+            <th>sno</th>
+            <th>name</th>
+            <th>address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>MS Dhoni</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>2</td>
+                <td>Kohli</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>3</td>
+                <td>Rohit</td>
+                <td>India</td>
+            </tr>
+
+              <tr>
+                <td>4</td>
+                <td>Maculum</td>
+                <td>Newzeland</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
